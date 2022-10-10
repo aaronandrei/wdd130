@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+}
+p {
+    color: white;
+}
+header, main, footer {
+    text-align: center;
+    color: white;
+}
+img {
+    margin: 20px auto;
+    display: block;
+    width: 15%;
+}
+.list {
+    text-align: left;
+    margin: 20px auto;
+    display: block;
+    color: black;
+}
