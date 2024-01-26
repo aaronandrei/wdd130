@@ -41,6 +41,8 @@ aside img {
 }
 aside h2 {
     position: absolute;
+    top: 28px;
+    left: 157px;
 }
 footer {
     margin-top: 15px;
@@ -53,5 +55,5 @@ footer {
     border: 1px solid black;
     padding: 1rem;
     background-color: lightcoral;
-    color: whitesmoke;
+    color: black;
 }
