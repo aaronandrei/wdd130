@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Rubik+Mono+One&display=swap');
+
+:root {
+    --primary-color: #283618;
+    --secondary-color: #508CA4;
+    --accent1-color: #91aec1;
+    --accent2-color: #bfd7ea;
+    --heading-font: 'Rubik Mono One', monospace;
+    --paragraph-font: 'DM Mono' , monospace;
+    --nav-background-color: #bfd7bf;
+    --nav-link-color: #508ca4;
+    --nav-hover-link-color: #283618;
+    --nav-hover-background-color: #91aec1;
+}
+main {
+    max-width: 1500px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+a {
+    /* text-decoration: none; */
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 25px;
+    left: 450px;
+    background-color: var(--accent2-color);
+}
+.hero article {
+    position: absolute;
+    top: 200px;
+    padding: 30px;
+    background: rgb(191,215,234, .7);
+}
+.hero article img {
+    float: right;
+    width: 200px;
+    padding: 0, 20px, 0, 20px;
+}
+.hero p {
+    color: var(--primary-color);
+}
