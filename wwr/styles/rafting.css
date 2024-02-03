@@ -26,6 +26,21 @@ p {
 a {
     /* text-decoration: none; */
 }
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+header img {
+    width: 100px;
+    margin-left: 400px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 300px;
+}
 .hero {
     position: relative;
 }
@@ -51,6 +66,24 @@ a {
     width: 200px;
     padding: 0 20px 0 20px;
 }
+footer {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+}
 .hero p {
     color: var(--primary-color);
+}
+.adventure section {
+    display: flex;
+}
+footer p {
+    margin: 200px;
+}
+.sociallinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sociallinks img {
+    max-width: 35px;
 }
