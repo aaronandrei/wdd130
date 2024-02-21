@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Tatillium Web', Trebuchet, sans-serif;
+    font-size: 1em;
+    color: black;
+    background: lightgrey;
+}
+header {
+    margin: 40px auto;
+    width: 800px;
+}
+h1 {
+    margin: 1rem;
+    font-size: .9em;
+    color: rebeccapurple;
+    text-align: center;
+}
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rebeccapurple;
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rebeccapurple;
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: purple;
+    font-size: 1.2em;
+    align-items: left;
+}
+label, input, button, select, textarea {
+    font-family: Trebuchet, Helvetica, sans-serif;
+}
+label {
+    text-align: right;
+    padding: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+input[type="checkbox"] {
+    width: 50px;
+    height: 50px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.3rem;
+}
+button:hover {
+    background-color: rebeccapurple;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: .9rem;
+    color: blue;
+    border-top: 1px solid rebeccapurple;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 3fr;
+    margin: 0.5rem 0;
+}
