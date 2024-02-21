@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Exo 2', Trebuchet, sans-serif;
+    font-size: 1em;
+    color: #2E4053;
+    background: #F8F9F9;
+}
+h1 {
+    margin: 1rem auto;
+    text-align: center;
+}
+form {
+    width: 550px;
+    margin: 1rem auto;
+    padding: 2rem;
+    border: 1px solid #2E4053;
+    border-radius: .3rem;
+    background: #F8F9F9;
+    display: grid;
+}
+label {
+    margin: 1rem 0 1rem 0;
+}
+input, select, textarea {
+    font-size: 1rem;
+    font-family: Trebuchet;
+    color: #2E4053;
+}
+textarea {
+    height: 6rem;
+}
+button {
+    margin: 2rem auto auto auto;
+    padding: 1rem;
+    background: #F5B041;
+    color: #2E4053;
+    font-size: 1.4rem;
+    border: none;
+    width: 100%;
+    border-radius: .3rem;
+}
