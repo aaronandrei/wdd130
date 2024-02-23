@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Contact Page</title>
+    <meta name="description" content="Contact page of the Whitewater Rafting Site">
+    <meta name="author" content="Aaron Andrei M">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <!-- <div class="contactbox"> -->
+            <h1 class="contactus">Contact Us</h1>
+            <div class="contactbox">
+                <section class="contact">
+                    <h2>Contact</h2>
+                    <p>contact@whitewater.com</p>
+                    <p>855.555.5555</p>
+                </section>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d23231.116513333072!2d-110.77659841825717!3d43.29563436098183!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1708655681993!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <section class="address">
+                    <h2>Address</h2>
+                    <p>82 Snake Road</p>
+                    <p>Hoback, Wyoming</p>
+                </section>
+            </div>    
+            <div class="team">
+                <h2>Our Team</h2>
+                <figure>
+                    <img src="images/employee1.webp" alt="happy employee donald">
+                    <figcaption>Donald Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.webp" alt="happy employee tiffany">
+                    <figcaption>Tiffany Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.webp" alt="happy employee Sue">
+                    <figcaption>Sue Guide</figcaption>
+                </figure>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <legend>Select the reason for you visit:</legend>
+                <div>
+                    <input type="radio" id="choice1" name="reason" value="inquiry">
+                    <label for="reason">General Inquiry</label>
+                    <input type="radio" id="choice2" name="reason" value="reservationquestion">
+                    <label for="reason">Reservation Question</label>
+                    <input type="radio" id="choice3" name="reason" value="suggestion">
+                    <label for="reason">Website Suggestion</label>
+                </div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="7"></textarea>
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <button type="submit">Submit My Information</button>
+            </form>
+        <!-- </div> -->
+    </main>
+    <footer>
+        <p>&copy;2024 | Whitewater Rafting | Aaron Andrei M</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook Logo"></a>
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="X Logo"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram Logo"></a>
+        </nav>
+    </footer>
+</body>
+</html>

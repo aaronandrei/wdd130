@@ -18,6 +18,7 @@ main {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    justify-self: center;
 }
 p {
     font-family: var(--paragraph-font);
@@ -86,4 +87,43 @@ footer p {
 }
 .sociallinks img {
     max-width: 35px;
+}
+.contactbox {
+    display: flex;
+    max-width: 800px;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+h1 .contactus {
+    display: block;
+}
+form {
+    width: 550px;
+    margin: 2% auto;
+    padding: 2rem;
+    border: 1px solid var(--accent2-color);
+    font-family: var(--paragraph-font);
+    border-radius: .3rem;
+    background: var(--accent1-color);
+    display: grid;
+}
+button {
+    font-family: var(--paragraph-font);
+    background: #283618;
+    border-radius: .8rem;
+    color: var(--accent2-color);
+    height: 3rem;
+    font-size: 1.5rem;
+}
+input, select, textarea {
+    font-size: 1.1rem;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+    padding: 2% auto;
+}
+label, legend {
+    padding: 1rem 0 1rem 0;
+}
+.team {
+    display: flex;
 }
