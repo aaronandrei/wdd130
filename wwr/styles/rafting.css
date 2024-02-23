@@ -25,7 +25,12 @@ p {
     color: var(--secondary-color);
 }
 a {
-    /* text-decoration: none; */
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+a:link {
+    text-decoration: none;
+    color: var(--accent2-color);
 }
 header {
     display: grid;
@@ -114,6 +119,11 @@ button {
     color: var(--accent2-color);
     height: 3rem;
     font-size: 1.5rem;
+    text-decoration: none;
+}
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
 input, textarea {
     font-size: 1.1rem;
@@ -125,5 +135,22 @@ label, legend {
     padding: 1rem 0 1rem 0;
 }
 .team {
+    display: flex;
+}
+.tripshero {
+    position: relative;
+    display: block;
+}
+.tripshero img {
+    justify-items: center;
+}
+.tripshero h1 {
+    display: block;
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    background-color: var(--accent2-color);
+}
+.locations {
     display: flex;
 }
