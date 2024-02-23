@@ -115,7 +115,7 @@ button {
     height: 3rem;
     font-size: 1.5rem;
 }
-input, select, textarea {
+input, textarea {
     font-size: 1.1rem;
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
